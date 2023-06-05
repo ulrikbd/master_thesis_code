@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "==1.23.0"
+vg = "*"
+matplotlib = "*"
+seaborn = "*"
+scipy = "*"
+sklearn = "*"
+opencv-python = "*"
+scikit-image = "*"
+imutils = "*"
+pycwt = "*"
+giotto-tda = "*"
+plotly = "*"
+kaleido = "*"
+persim = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.16"
